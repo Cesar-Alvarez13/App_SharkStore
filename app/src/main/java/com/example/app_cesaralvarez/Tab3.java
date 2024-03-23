@@ -24,7 +24,7 @@ public class Tab3 extends Fragment implements OnMapReadyCallback {
 
     private static final int REQUEST_LOCATION_PERMISSION = 1;
     private GoogleMap mMap;
-    private final LatLng DEFAULT_LOCATION = new LatLng(20.6301876, -103.2517025); // Coordenadas del CETI TONALA
+    private final LatLng DEFAULT_LOCATION = new LatLng(35.5028013, 138.5205948); 
 
     @Nullable
     @Override
