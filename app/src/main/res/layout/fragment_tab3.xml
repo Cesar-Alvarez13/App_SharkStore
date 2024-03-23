@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context=".Tab3">
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shark Store"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal">
+    </TextView>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicados en el corazón del puerto pesquero, Shark Store es tu destino para productos marinos frescos y de alta calidad. Nuestra tienda se encuentra estratégicamente ubicada cerca de las aguas cristalinas del océano, lo que nos permite ofrecerte los productos más frescos directamente del mar. Ven y visítanos en nuestra conveniente ubicación, donde podrás disfrutar de la comodidad y la frescura incomparable que solo Shark Store puede ofrecerte."
+        android:textColor="@color/white"
+        android:textAlignment="viewStart"
+        android:justificationMode="inter_word"
+        >
+    </TextView>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:importantForAccessibility="yes"
+        />
+</LinearLayout>

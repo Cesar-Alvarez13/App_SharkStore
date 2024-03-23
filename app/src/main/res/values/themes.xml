@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App_CesarAlvarez" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Examen" parent="Base.Theme.App_CesarAlvarez" />
+
+    <style name="EditTextHintStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+</resources>

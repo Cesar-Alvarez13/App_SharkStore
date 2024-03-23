@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context=".Tab3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingTop="10dp"
+                android:text="Shark Store"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/shark"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:src="@drawable/pescado2"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="¡Bienvenido a Shark Store, tu destino confiable para los mejores productos del mar! Con más de una década de experiencia en el mercado, hemos sido el referente en la industria del pescado desde 2009. \n\n En Shark Store, nos enorgullecemos de ofrecer pescado fresco y de alta calidad que supera las expectativas de nuestros clientes más exigentes. \n\nNuestro compromiso con la frescura y la excelencia nos ha convertido en la elección número uno para los amantes del marisco en nuestra comunidad. ¡Ven y descubre la frescura y la calidad incomparables que solo Shark Store puede ofrecer!"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingTop="10dp"
+                android:text="Nuestro Objetivo"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Nuestro objetivo es ofrecer a nuestros clientes la experiencia de compra de pescado más conveniente y satisfactoria. Nos esforzamos por ser la opción preferida para aquellos que buscan pescado fresco y de alta calidad, al tiempo que brindamos un servicio excepcional y una experiencia de compra sin igual.
+                \n\nAños en el mercado:\n\nCon más de una década de experiencia en la industria, Shark Store ha estado sirviendo a nuestros clientes desde el año 2009. Durante más de 10 años, hemos sido un referente confiable en la venta de pescado fresco y de alta calidad.
+                \n\nCalidad del pescado:\n\nEn Shark Store, nos comprometemos a ofrecer solo lo mejor a nuestros clientes. Trabajamos en estrecha colaboración con pescadores locales y proveedores de confianza para garantizar que cada pieza de pescado que vendemos sea fresca, deliciosa y de la más alta calidad."
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Producto 1 -->
+            <FrameLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/product_image1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="start"
+                    android:src="@drawable/marlin"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/product_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marlin"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/product_description1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deléitate con la frescura del mar: carne de pez marlin, suave y sabrosa, ideal para tus platos favoritos."
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- Producto 2 -->
+
+            <FrameLayout
+                android:layout_marginTop="20dp"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="start"
+                    android:src="@drawable/salmon"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salmon"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Descubre la exquisitez del salmón: carne tierna, saludable y llena de sabor para satisfacer tu paladar exigente."
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- Producto 3 -->
+            <FrameLayout
+                android:layout_marginTop="20dp"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="start"
+                    android:src="@drawable/atun"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Atun"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Disfruta la versatilidad del atún: carne magra, llena de nutrientes y perfecta para tus recetas favoritas."
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- Producto 4 -->
+            <FrameLayout
+                android:layout_marginTop="20dp"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/product_4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="start"
+                    android:src="@drawable/huachinango"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Huachinango"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Explora el sabor auténtico del huachinango: carne fresca, jugosa y llena de aroma marino para deleitar tus sentidos"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+
+            <!-- Puedes continuar agregando más productos aquí si lo deseas -->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
